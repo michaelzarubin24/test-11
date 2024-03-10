@@ -1,0 +1,7 @@
+<main class="main">
+  <div class="users">
+    <div *ngFor="let user of getUsers()">
+      <app-user [user]="user"></app-user>
+    </div>
+  </div>
+</main>
